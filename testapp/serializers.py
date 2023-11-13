@@ -8,7 +8,6 @@ class PaystackDataSerializer(serializers.ModelSerializer):
         fields = ['client_id', 'amount', 'currency']
 
 
-# Serializer for MyClient model
 class MyClientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Client
